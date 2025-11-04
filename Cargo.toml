@@ -1,0 +1,9 @@
+[package]
+name = "audio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libpulse-binding = "2.27.1"
+libpulse-simple-binding = "2.27.1"
+anyhow = "1.0"
