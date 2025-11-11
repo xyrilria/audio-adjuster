@@ -1,9 +1,10 @@
 [package]
-name = "audio"
+name = "blackhole"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-libpulse-binding = "2.27.1"
-libpulse-simple-binding = "2.27.1"
-anyhow = "1.0"
+anyhow = "1.0.100"
+libpulse-binding = "2.30.1"
+libpulse-simple-binding = "2.29.0"
+rand = "0.9.2"
